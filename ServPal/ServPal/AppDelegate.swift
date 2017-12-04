@@ -16,20 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         migrateRealm()
-        /*self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
 
-        if let user = UserManager.getUser() {
-            self.window?.rootViewController = UINavigationController(rootViewController: MainViewController())
-        } else {
-            self.window?.rootViewController = UINavigationController(rootViewController: WelcomeViewController())
-        }
+        self.window?.rootViewController = UINavigationController(rootViewController: MainViewController())
 
-        self.window?.makeKeyAndVisible()*/
+        self.window?.makeKeyAndVisible()
         return true
-    }
-    
-    func logout(){
-        self.window?.rootViewController = UINavigationController(rootViewController: WelcomeViewController())
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

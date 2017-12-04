@@ -47,16 +47,11 @@ class MainViewController: UIViewController, WKUIDelegate {
         self.navigationController?.navigationBar.barStyle = .blackTranslucent
         self.navigationController?.navigationBar.barTintColor = .primaryDark
         self.navigationController?.navigationBar.tintColor = .white
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Settings", style: .plain, target: self, action: #selector(tappedSettings))
 
 
 
 
         if var urlComps = URLComponents(string: ServPalApiManager.kBaseUrl) {
-            urlComps.path = basePath
-            let sessionQuery = URLQueryItem(name: "PHPSESSIONID", value: UserManager.getUser()?.phpSessionId ?? "")
-            let redundantSessionQuery = URLQueryItem(name: "key", value: UserManager.getUser()?.phpSessionId ?? "")
-            urlComps.queryItems = [sessionQuery,redundantSessionQuery]
             let request = NSMutableURLRequest(url: urlComps.url!)
             webView.load(request as URLRequest)
         }
@@ -70,21 +65,6 @@ class MainViewController: UIViewController, WKUIDelegate {
     @objc
     func refresh() {
         webView.reload()
-    }
-
-    @objc
-    func tappedSettings() {
-        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-
-        let logout = UIAlertAction(title: "Logout", style: .cancel, handler: { alert in
-            RealmManager.shared.deleteAllObjects()
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            appDelegate.logout()
-        })
-
-        alertController.addAction(logout)
-
-        self.present(alertController, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
