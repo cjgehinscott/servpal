@@ -777,10 +777,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3N7K2HQ6C;
 				INFOPLIST_FILE = ServPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.servpal.Servpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fb64062-99f8-445a-8d33-1de34e8fbc23";
+				PROVISIONING_PROFILE = "3bde5a16-9335-46cb-ab4a-ebd1aa19698a";
 				PROVISIONING_PROFILE_SPECIFIER = ServpalDevelopment;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -796,6 +797,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3N7K2HQ6C;
 				INFOPLIST_FILE = ServPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.servpal.Servpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
