@@ -125,7 +125,7 @@ class LoginViewController: UIViewController {
             self.loading = false
             if result != nil{
                 DispatchQueue.main.async {
-                    self.present(UINavigationController(rootViewController: MainViewController()), animated: true)
+                    //self.present(UINavigationController(rootViewController: MainViewController()), animated: true)
                 }
             }else{
                 self.showAlert(message: error?.error ?? "Unknown Error")

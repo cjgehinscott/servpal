@@ -150,7 +150,8 @@ class RegisterViewController: UIViewController {
             guard let `self` = self else { return }
             switch result {
                 case .success:
-                    self.present(MainViewController(), animated: true)
+                    //self.present(MainViewController(), animated: true)
+                break
                 case let .failure(error):
                     self.showAlert(message: error.localizedDescription)
             }
