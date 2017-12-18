@@ -1,20 +1,24 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'ServPal' do
+target 'Servpal' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'RealmSwift'
   pod 'ObjectMapper'
   pod 'Alamofire'
   pod 'SnapKit'
+  pod 'DLRadioButton', '~> 1.4'
+  pod 'SVProgressHUD'
 
-  target 'ServPalTests' do
+  # Pods for Servpal
+
+  target 'ServpalTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'ServPalUITests' do
+  target 'ServpalUITests' do
     inherit! :search_paths
     # Pods for testing
   end

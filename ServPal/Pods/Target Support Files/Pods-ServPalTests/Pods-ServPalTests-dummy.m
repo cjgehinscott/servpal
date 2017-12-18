@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_ServPalTests : NSObject
+@interface PodsDummy_Pods_ServpalTests : NSObject
 @end
-@implementation PodsDummy_Pods_ServPalTests
+@implementation PodsDummy_Pods_ServpalTests
 @end

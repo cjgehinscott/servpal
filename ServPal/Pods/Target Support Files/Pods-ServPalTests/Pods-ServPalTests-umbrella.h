@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ServPalTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ServPalTestsVersionString[];
+FOUNDATION_EXPORT double Pods_ServpalTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ServpalTestsVersionString[];
 

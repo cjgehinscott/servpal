@@ -1,5 +1,5 @@
-framework module Pods_ServPal {
-  umbrella header "Pods-ServPal-umbrella.h"
+framework module Pods_Servpal {
+  umbrella header "Pods-Servpal-umbrella.h"
 
   export *
   module * { export * }

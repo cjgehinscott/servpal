@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07C817CEBFD98FA42B66C9CB /* Pods_ServPalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E720A99AD6E40B8912FB932F /* Pods_ServPalTests.framework */; };
+		231C131C1FE5DEF500ACB357 /* WebAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C131B1FE5DEF500ACB357 /* WebAppVC.swift */; };
+		2363C8AF1FE58EF900B36C79 /* StopGap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2363C8AE1FE58EF900B36C79 /* StopGap.storyboard */; };
+		2363C8B21FE58F4300B36C79 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363C8B11FE58F4300B36C79 /* SignupVC.swift */; };
 		239E5B6B1FDE0A4100EA591A /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E5B6A1FDE0A4100EA591A /* SearchVM.swift */; };
 		239E5B6D1FDE0A4A00EA591A /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E5B6C1FDE0A4A00EA591A /* SearchModel.swift */; };
 		239E5B721FDE0AD400EA591A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E5B711FDE0AD400EA591A /* BaseViewModel.swift */; };
 		239E5B741FDE0ADE00EA591A /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E5B731FDE0ADE00EA591A /* BaseModel.swift */; };
-		247B3123C6A5D7E8A97F80DA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B334D229D802A847D7AAD /* RegisterViewController.swift */; };
 		247B319B4A804032B12BE12B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3ADA52B707BB282215C6 /* UserManager.swift */; };
-		247B347CF6F09303924C8B13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3B1A29016BAC3B4F2012 /* LoginViewController.swift */; };
 		247B349E62EE55C06CEAD121 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3F7F15D069DC0EF5FAEC /* Colors.swift */; };
-		247B38271BCFE14E485A92D0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D7F9CC9BD7787A537B8 /* WelcomeViewController.swift */; };
 		247B3AA466ED79AAD10EBF1F /* ServPalApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3A8A309C9E30A7363D52 /* ServPalApiManager.swift */; };
+		52F0F8F140AE28B5637892D9 /* Pods_ServpalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BC943E28D8558B583D202 /* Pods_ServpalUITests.framework */; };
 		684021F51FC45F68004FE058 /* SPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684021F41FC45F68004FE058 /* SPError.swift */; };
 		6855DA381FD30BFB00E7DFD7 /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855DA371FD30BFB00E7DFD7 /* LocationServiceManager.swift */; };
 		6855DA3B1FD3110600E7DFD7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855DA3A1FD3110600E7DFD7 /* SearchViewController.swift */; };
@@ -35,8 +35,8 @@
 		68A816381FB3292400719AE4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A816371FB3292400719AE4 /* Profile.swift */; };
 		68F3FA831FB7B23400ED1333 /* RLMResults+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F3FA821FB7B23400ED1333 /* RLMResults+Additions.swift */; };
 		68F3FA861FB7B2C300ED1333 /* RLMArray+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F3FA851FB7B2C300ED1333 /* RLMArray+Additions.swift */; };
-		DF023E9CECC4741DFDED3F15 /* Pods_ServPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD0420F6B09CFB5D327CCD8 /* Pods_ServPal.framework */; };
-		E368313CF11D8DF5B2C5997F /* Pods_ServPalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F793E46C4AB10CC63900EB /* Pods_ServPalUITests.framework */; };
+		90288AB20FB9505A741D22A8 /* Pods_Servpal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF6CBF035B9895910B2FFA5 /* Pods_Servpal.framework */; };
+		977AB6945B39F18AABE56FFA /* Pods_ServpalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E2FD4E50E8A136AE364EBD /* Pods_ServpalTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,19 +57,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		168BF8CFEDB14B7332F0EEA3 /* Pods-ServPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServPalUITests/Pods-ServPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1804251ABA4D0E76D811108D /* Pods-ServpalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServpalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServpalTests/Pods-ServpalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		231C13171FE5D7EC00ACB357 /* Servpal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Servpal-Bridging-Header.h"; sourceTree = "<group>"; };
+		231C131B1FE5DEF500ACB357 /* WebAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAppVC.swift; sourceTree = "<group>"; };
+		2363C8AE1FE58EF900B36C79 /* StopGap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StopGap.storyboard; sourceTree = "<group>"; };
+		2363C8B11FE58F4300B36C79 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		239E5B6A1FDE0A4100EA591A /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 		239E5B6C1FDE0A4A00EA591A /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		239E5B711FDE0AD400EA591A /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		239E5B731FDE0ADE00EA591A /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
-		247B334D229D802A847D7AAD /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		247B3A8A309C9E30A7363D52 /* ServPalApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServPalApiManager.swift; sourceTree = "<group>"; };
 		247B3ADA52B707BB282215C6 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
-		247B3B1A29016BAC3B4F2012 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		247B3D7F9CC9BD7787A537B8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		247B3F7F15D069DC0EF5FAEC /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		2A36A4047AF927FC253E6581 /* Pods-ServPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServPalTests/Pods-ServPalTests.release.xcconfig"; sourceTree = "<group>"; };
-		31F506677138FEFFFABAADA9 /* Pods-ServPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServPal/Pods-ServPal.debug.xcconfig"; sourceTree = "<group>"; };
+		570BC943E28D8558B583D202 /* Pods_ServpalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServpalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		684021F41FC45F68004FE058 /* SPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPError.swift; sourceTree = "<group>"; };
 		6855DA371FD30BFB00E7DFD7 /* LocationServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
 		6855DA3A1FD3110600E7DFD7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -93,12 +93,13 @@
 		68A816371FB3292400719AE4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		68F3FA821FB7B23400ED1333 /* RLMResults+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RLMResults+Additions.swift"; sourceTree = "<group>"; };
 		68F3FA851FB7B2C300ED1333 /* RLMArray+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RLMArray+Additions.swift"; sourceTree = "<group>"; };
-		71F793E46C4AB10CC63900EB /* Pods_ServPalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServPalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ED0CA404D192C8E108F5E88 /* Pods-ServPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServPalUITests/Pods-ServPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		90CBC0D041AEEFB545F9EA11 /* Pods-ServPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServPalTests/Pods-ServPalTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0AC8F9ACF667352C4BA2D13 /* Pods-ServPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServPal/Pods-ServPal.release.xcconfig"; sourceTree = "<group>"; };
-		DFD0420F6B09CFB5D327CCD8 /* Pods_ServPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E720A99AD6E40B8912FB932F /* Pods_ServPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServPalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B18D8EA6572435077122B2 /* Pods-ServpalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServpalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServpalUITests/Pods-ServpalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF6CBF035B9895910B2FFA5 /* Pods_Servpal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Servpal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDDB6BA1F4B7BAE5239B4D4 /* Pods-ServpalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServpalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServpalUITests/Pods-ServpalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		985A5143A6DCECE986EDCEDC /* Pods-ServpalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServpalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServpalTests/Pods-ServpalTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2E2FD4E50E8A136AE364EBD /* Pods_ServpalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServpalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98B832BAD0D8F04CE86C539 /* Pods-Servpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Servpal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Servpal/Pods-Servpal.debug.xcconfig"; sourceTree = "<group>"; };
+		EF54109E545DDB0CA04D440C /* Pods-Servpal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Servpal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Servpal/Pods-Servpal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF023E9CECC4741DFDED3F15 /* Pods_ServPal.framework in Frameworks */,
+				90288AB20FB9505A741D22A8 /* Pods_Servpal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C817CEBFD98FA42B66C9CB /* Pods_ServPalTests.framework in Frameworks */,
+				977AB6945B39F18AABE56FFA /* Pods_ServpalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,13 +123,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E368313CF11D8DF5B2C5997F /* Pods_ServPalUITests.framework in Frameworks */,
+				52F0F8F140AE28B5637892D9 /* Pods_ServpalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2363C8B01FE58F1C00B36C79 /* StopGap */ = {
+			isa = PBXGroup;
+			children = (
+				2363C8AE1FE58EF900B36C79 /* StopGap.storyboard */,
+				2363C8B11FE58F4300B36C79 /* SignupVC.swift */,
+				231C131B1FE5DEF500ACB357 /* WebAppVC.swift */,
+			);
+			path = StopGap;
+			sourceTree = "<group>";
+		};
 		239E5B691FDE0A1F00EA591A /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +167,16 @@
 			path = Style;
 			sourceTree = "<group>";
 		};
+		422B6325C294108CB8934716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF6CBF035B9895910B2FFA5 /* Pods_Servpal.framework */,
+				A2E2FD4E50E8A136AE364EBD /* Pods_ServpalTests.framework */,
+				570BC943E28D8558B583D202 /* Pods_ServpalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6855DA361FD30BBF00E7DFD7 /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,9 +190,6 @@
 			children = (
 				239E5B6E1FDE0A7D00EA591A /* Base */,
 				239E5B691FDE0A1F00EA591A /* Search */,
-				247B3D7F9CC9BD7787A537B8 /* WelcomeViewController.swift */,
-				247B3B1A29016BAC3B4F2012 /* LoginViewController.swift */,
-				247B334D229D802A847D7AAD /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -179,12 +197,12 @@
 		68A815E91FB26E6800719AE4 = {
 			isa = PBXGroup;
 			children = (
-				68A815F41FB26E6800719AE4 /* ServPal */,
-				68A816091FB26E6800719AE4 /* ServPalTests */,
-				68A816141FB26E6800719AE4 /* ServPalUITests */,
+				68A815F41FB26E6800719AE4 /* Servpal */,
+				68A816091FB26E6800719AE4 /* ServpalTests */,
+				68A816141FB26E6800719AE4 /* ServpalUITests */,
 				68A815F31FB26E6800719AE4 /* Products */,
-				954E0E75922FB3AAE3C0D2E6 /* Pods */,
-				9304A16AE106EE8DD4BE2C8A /* Frameworks */,
+				74B43508025ECE8C4F639CD2 /* Pods */,
+				422B6325C294108CB8934716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,9 +216,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68A815F41FB26E6800719AE4 /* ServPal */ = {
+		68A815F41FB26E6800719AE4 /* Servpal */ = {
 			isa = PBXGroup;
 			children = (
+				231C13171FE5D7EC00ACB357 /* Servpal-Bridging-Header.h */,
+				2363C8B01FE58F1C00B36C79 /* StopGap */,
 				68A815F51FB26E6800719AE4 /* AppDelegate.swift */,
 				68A815F91FB26E6800719AE4 /* Main.storyboard */,
 				6855DA391FD30DC400E7DFD7 /* ViewControllers */,
@@ -213,25 +233,25 @@
 				68A816011FB26E6800719AE4 /* Info.plist */,
 				247B3839FD3FC7F41AC25F07 /* Style */,
 			);
-			path = ServPal;
+			path = Servpal;
 			sourceTree = "<group>";
 		};
-		68A816091FB26E6800719AE4 /* ServPalTests */ = {
+		68A816091FB26E6800719AE4 /* ServpalTests */ = {
 			isa = PBXGroup;
 			children = (
 				68A8160A1FB26E6800719AE4 /* ServPalTests.swift */,
 				68A8160C1FB26E6800719AE4 /* Info.plist */,
 			);
-			path = ServPalTests;
+			path = ServpalTests;
 			sourceTree = "<group>";
 		};
-		68A816141FB26E6800719AE4 /* ServPalUITests */ = {
+		68A816141FB26E6800719AE4 /* ServpalUITests */ = {
 			isa = PBXGroup;
 			children = (
 				68A816151FB26E6800719AE4 /* ServPalUITests.swift */,
 				68A816171FB26E6800719AE4 /* Info.plist */,
 			);
-			path = ServPalUITests;
+			path = ServpalUITests;
 			sourceTree = "<group>";
 		};
 		68A816231FB2839900719AE4 /* Model */ = {
@@ -290,25 +310,15 @@
 			path = RealmExtensions;
 			sourceTree = "<group>";
 		};
-		9304A16AE106EE8DD4BE2C8A /* Frameworks */ = {
+		74B43508025ECE8C4F639CD2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFD0420F6B09CFB5D327CCD8 /* Pods_ServPal.framework */,
-				E720A99AD6E40B8912FB932F /* Pods_ServPalTests.framework */,
-				71F793E46C4AB10CC63900EB /* Pods_ServPalUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		954E0E75922FB3AAE3C0D2E6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				31F506677138FEFFFABAADA9 /* Pods-ServPal.debug.xcconfig */,
-				C0AC8F9ACF667352C4BA2D13 /* Pods-ServPal.release.xcconfig */,
-				90CBC0D041AEEFB545F9EA11 /* Pods-ServPalTests.debug.xcconfig */,
-				2A36A4047AF927FC253E6581 /* Pods-ServPalTests.release.xcconfig */,
-				8ED0CA404D192C8E108F5E88 /* Pods-ServPalUITests.debug.xcconfig */,
-				168BF8CFEDB14B7332F0EEA3 /* Pods-ServPalUITests.release.xcconfig */,
+				D98B832BAD0D8F04CE86C539 /* Pods-Servpal.debug.xcconfig */,
+				EF54109E545DDB0CA04D440C /* Pods-Servpal.release.xcconfig */,
+				1804251ABA4D0E76D811108D /* Pods-ServpalTests.debug.xcconfig */,
+				985A5143A6DCECE986EDCEDC /* Pods-ServpalTests.release.xcconfig */,
+				8FDDB6BA1F4B7BAE5239B4D4 /* Pods-ServpalUITests.debug.xcconfig */,
+				73B18D8EA6572435077122B2 /* Pods-ServpalUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -320,12 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A8161A1FB26E6800719AE4 /* Build configuration list for PBXNativeTarget "Servpal" */;
 			buildPhases = (
-				0ED520A8A1D3DDF2A4F66F2B /* [CP] Check Pods Manifest.lock */,
+				7E8489CD7BD17D9A8F30CB28 /* [CP] Check Pods Manifest.lock */,
 				68A815EE1FB26E6800719AE4 /* Sources */,
 				68A815EF1FB26E6800719AE4 /* Frameworks */,
 				68A815F01FB26E6800719AE4 /* Resources */,
-				C923B664DC99E326E0BA84E2 /* [CP] Embed Pods Frameworks */,
-				E25BEC62D08AFF44F3D982C5 /* [CP] Copy Pods Resources */,
+				792312DB64220301EB98E734 /* [CP] Embed Pods Frameworks */,
+				30F7BC7DEBCA7EDD07C1016E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,12 +350,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A8161D1FB26E6800719AE4 /* Build configuration list for PBXNativeTarget "ServpalTests" */;
 			buildPhases = (
-				8C4CA113898F8E03A5A4B6E0 /* [CP] Check Pods Manifest.lock */,
+				44518411342D576701DA36D1 /* [CP] Check Pods Manifest.lock */,
 				68A816021FB26E6800719AE4 /* Sources */,
 				68A816031FB26E6800719AE4 /* Frameworks */,
 				68A816041FB26E6800719AE4 /* Resources */,
-				F0446263D5401DEB7171D99A /* [CP] Embed Pods Frameworks */,
-				15DD2D910A93AC83B1357812 /* [CP] Copy Pods Resources */,
+				D6C1541F355ABCF3E4D8758F /* [CP] Embed Pods Frameworks */,
+				7D97FCD9FB62C379B85D920B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,12 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A816201FB26E6800719AE4 /* Build configuration list for PBXNativeTarget "ServpalUITests" */;
 			buildPhases = (
-				DBB9AAEAA71DED539D20A12A /* [CP] Check Pods Manifest.lock */,
+				1DC42061A35F9043477151D7 /* [CP] Check Pods Manifest.lock */,
 				68A8160D1FB26E6800719AE4 /* Sources */,
 				68A8160E1FB26E6800719AE4 /* Frameworks */,
 				68A8160F1FB26E6800719AE4 /* Resources */,
-				E5056B628C5ED6DCBF0A0427 /* [CP] Embed Pods Frameworks */,
-				95765E83EBDBAFB09B691E08 /* [CP] Copy Pods Resources */,
+				AF6C34FE660A35FF342F1980 /* [CP] Embed Pods Frameworks */,
+				AC75D616781DCC62DF6441A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,6 +400,7 @@
 				TargetAttributes = {
 					68A815F11FB26E6800719AE4 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Manual;
 					};
 					68A816051FB26E6800719AE4 = {
@@ -432,6 +443,7 @@
 				68A816001FB26E6800719AE4 /* LaunchScreen.storyboard in Resources */,
 				68A815FD1FB26E6800719AE4 /* Assets.xcassets in Resources */,
 				68A815FB1FB26E6800719AE4 /* Main.storyboard in Resources */,
+				2363C8AF1FE58EF900B36C79 /* StopGap.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +464,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0ED520A8A1D3DDF2A4F66F2B /* [CP] Check Pods Manifest.lock */ = {
+		1DC42061A35F9043477151D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,14 +475,14 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ServPal-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ServpalUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		15DD2D910A93AC83B1357812 /* [CP] Copy Pods Resources */ = {
+		30F7BC7DEBCA7EDD07C1016E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,10 +494,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPalTests/Pods-ServPalTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Servpal/Pods-Servpal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C4CA113898F8E03A5A4B6E0 /* [CP] Check Pods Manifest.lock */ = {
+		44518411342D576701DA36D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,73 +508,44 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ServPalTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ServpalTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95765E83EBDBAFB09B691E08 /* [CP] Copy Pods Resources */ = {
+		792312DB64220301EB98E734 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPalUITests/Pods-ServPalUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C923B664DC99E326E0BA84E2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ServPal/Pods-ServPal-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Servpal/Pods-Servpal-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPal/Pods-ServPal-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Servpal/Pods-Servpal-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DBB9AAEAA71DED539D20A12A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ServPalUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E25BEC62D08AFF44F3D982C5 /* [CP] Copy Pods Resources */ = {
+		7D97FCD9FB62C379B85D920B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -574,10 +557,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPal/Pods-ServPal-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServpalTests/Pods-ServpalTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5056B628C5ED6DCBF0A0427 /* [CP] Embed Pods Frameworks */ = {
+		7E8489CD7BD17D9A8F30CB28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Servpal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC75D616781DCC62DF6441A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServpalUITests/Pods-ServpalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF6C34FE660A35FF342F1980 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -589,10 +605,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPalUITests/Pods-ServPalUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServpalUITests/Pods-ServpalUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0446263D5401DEB7171D99A /* [CP] Embed Pods Frameworks */ = {
+		D6C1541F355ABCF3E4D8758F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -604,7 +620,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServPalTests/Pods-ServPalTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServpalTests/Pods-ServpalTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -629,11 +645,10 @@
 				68A816271FB2840000719AE4 /* LoginResponse.swift in Sources */,
 				68A816341FB327F800719AE4 /* Constants.swift in Sources */,
 				247B349E62EE55C06CEAD121 /* Colors.swift in Sources */,
+				231C131C1FE5DEF500ACB357 /* WebAppVC.swift in Sources */,
+				2363C8B21FE58F4300B36C79 /* SignupVC.swift in Sources */,
 				247B3AA466ED79AAD10EBF1F /* ServPalApiManager.swift in Sources */,
-				247B38271BCFE14E485A92D0 /* WelcomeViewController.swift in Sources */,
 				68F3FA831FB7B23400ED1333 /* RLMResults+Additions.swift in Sources */,
-				247B347CF6F09303924C8B13 /* LoginViewController.swift in Sources */,
-				247B3123C6A5D7E8A97F80DA /* RegisterViewController.swift in Sources */,
 				239E5B741FDE0ADE00EA591A /* BaseModel.swift in Sources */,
 				247B319B4A804032B12BE12B /* UserManager.swift in Sources */,
 			);
@@ -799,18 +814,32 @@
 		};
 		68A8161B1FB26E6800719AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31F506677138FEFFFABAADA9 /* Pods-ServPal.debug.xcconfig */;
+			baseConfigurationReference = D98B832BAD0D8F04CE86C539 /* Pods-Servpal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3N7K2HQ6C;
 				INFOPLIST_FILE = ServPal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DLRadioButton\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"RealmSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.servpal.Servpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3bde5a16-9335-46cb-ab4a-ebd1aa19698a";
 				PROVISIONING_PROFILE_SPECIFIER = ServpalDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "Servpal/Servpal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -818,19 +847,32 @@
 		};
 		68A8161C1FB26E6800719AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0AC8F9ACF667352C4BA2D13 /* Pods-ServPal.release.xcconfig */;
+			baseConfigurationReference = EF54109E545DDB0CA04D440C /* Pods-Servpal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3N7K2HQ6C;
 				INFOPLIST_FILE = ServPal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DLRadioButton\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"RealmSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.servpal.Servpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e5accc9e-4173-4ace-9423-8700b2aae89f";
 				PROVISIONING_PROFILE_SPECIFIER = ServpalDistribution;
+				SWIFT_OBJC_BRIDGING_HEADER = "Servpal/Servpal-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -838,7 +880,7 @@
 		};
 		68A8161E1FB26E6800719AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90CBC0D041AEEFB545F9EA11 /* Pods-ServPalTests.debug.xcconfig */;
+			baseConfigurationReference = 1804251ABA4D0E76D811108D /* Pods-ServpalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -856,7 +898,7 @@
 		};
 		68A8161F1FB26E6800719AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A36A4047AF927FC253E6581 /* Pods-ServPalTests.release.xcconfig */;
+			baseConfigurationReference = 985A5143A6DCECE986EDCEDC /* Pods-ServpalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -874,7 +916,7 @@
 		};
 		68A816211FB26E6800719AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ED0CA404D192C8E108F5E88 /* Pods-ServPalUITests.debug.xcconfig */;
+			baseConfigurationReference = 8FDDB6BA1F4B7BAE5239B4D4 /* Pods-ServpalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -891,7 +933,7 @@
 		};
 		68A816221FB26E6800719AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168BF8CFEDB14B7332F0EEA3 /* Pods-ServPalUITests.release.xcconfig */;
+			baseConfigurationReference = 73B18D8EA6572435077122B2 /* Pods-ServpalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
