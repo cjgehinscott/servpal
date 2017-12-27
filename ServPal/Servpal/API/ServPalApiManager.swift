@@ -74,6 +74,25 @@ class ServPalApiManager:NSObject{
             }
         }
     }
+    
+    static func findProfessionalsBy(_ searchTerm: String?, _ completion: (([Professional]?,Error?)->())?){
+        let url = URL(string: kBaseUrl + "professionals/find/" + (searchTerm ?? ""))
+        let headers = ["Content-Type":"application/x-www-form-urlencoded", "X-Requested-With": "XMLHttpRequest"]
+        Alamofire.request(url!, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers).validate().responseJSON { response in
+            print("Find Professionals reponses: <---- \(response) ----->")
+            switch response.result{
+            case .success:
+                if let responseJSON = response.value as? [String:Any]{
+                    if let professionals = Mapper<Professional>().mapArray(JSONObject: responseJSON["professionals"]){
+                        completion?(professionals,nil)
+                    }
+                }
+            case .failure(let error):
+                completion?(nil,error)
+                print(error.localizedDescription)
+            }
+        }
+    }
 }
 
 

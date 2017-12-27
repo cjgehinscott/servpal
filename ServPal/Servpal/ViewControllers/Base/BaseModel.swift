@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ServpalModel {
-    func setupWith(_ viewModel: ServpalViewModel?)
+    init?(_ viewModel: ServpalViewModel?)
 }

@@ -43,4 +43,5 @@ class UserManager {
     static func getUser() -> User? {
         return User.allObjects(in: RealmManager.shared.realm).firstObject() as? User
     }
+    
 }

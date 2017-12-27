@@ -10,6 +10,6 @@ import Foundation
 import UIKit
 
 protocol ServpalViewModel{
-    func setupWith(_ view: UIViewController?)
+    init?(_ view: UIViewController?)
     func isViewAttached()->Bool
 }
