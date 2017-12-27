@@ -27,4 +27,5 @@ class SuggestedSearchVM: NSObject, ServpalViewModel {
     func getSuggestedSearchTerms()->[String]{
         return model?.suggestedSearchTerms ?? [String]()
     }
+    
 }

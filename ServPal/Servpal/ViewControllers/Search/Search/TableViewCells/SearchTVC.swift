@@ -1,5 +1,5 @@
 //
-//  SaerchTVC.swift
+//  SearchTVC.swift
 //  Servpal
 //
 //  Created by CJ Gehin-Scott on 12/23/17.
@@ -8,11 +8,17 @@
 
 import UIKit
 
-class SaerchTVC: UITableViewCell {
+class SearchTVC: UITableViewCell {
 
+    @IBOutlet weak var initialsLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var professionLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        initialsLabel.clipsToBounds = true
+        initialsLabel.layer.cornerRadius = (initialsLabel.frame.size.width / 2.0)
+        selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
